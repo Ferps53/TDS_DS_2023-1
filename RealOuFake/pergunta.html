@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estiloPerguntas.css">
+    <title>Pergunta</title>
+</head>
+<body>
+     <div class="enumciado" id="FrasePergunta">
+
+        <div class="circulo">
+
+                <h1 id="numeroPergunta">1</h1>
+        </div>
+    
+        <h1 id="textoPergunta">Deodoro da Fonseca foi o primeiro presidente do Brasil?</h1>
+        
+     </div>
+
+     <div id="buttonReal">
+
+        <button onclick="mudarPergunta(1)" class="buttons"><a >REAL</a></button>
+
+     </div>
+     
+     <img id="imagem" src="imagens/rato.png" alt="rato">
+
+     <div id="buttonFake">
+
+        <button onclick="mudarPergunta(0)" class="buttons"><a>FAKE</a></button>
+
+     </div>
+        
+     <script src="script.js"></script>
+
+</body>
+</html>
